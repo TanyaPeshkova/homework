@@ -1,16 +1,17 @@
 header{
-	background: #666666 url(../image/hok.jpg);
+	background: #666666 url(../image/glav.jpg);
 	padding:73px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-left: 15px; 
+	float: left;
+	width: 100%
 }
 h1{
 	text-align: center;
 	font-size: 500%;
-	font-family: serif;
+	font-family: inherit;
 	color: white;
-	text-shadow: 3px 3px 5px #7d5132, 0 0 1em black;
+	text-shadow: 3px 3px 5px #423f58, 0 0 1em black;
 }
 nav a {
 	text-decoration: none;
@@ -25,7 +26,7 @@ nav a {
 	font-size: 110%;
 }
 nav a:hover {
-	background-color: #362308;
+	background-color:#423f58;
 	opacity: 0.7;
 	color:white;
 }
@@ -37,12 +38,12 @@ nav{
 	display: inline-block;
 	clear:both;
 	width: 23%;
-	margin:0% 1%;
 	padding:2% 1%;
-	background-color:#f2cc94;
+	background-color:#9a4500;
 	float:left;
 	border-width: 0px;
-	background:linear-gradient(to right,#f2cc94,#2d150f);
+	/*background:linear-gradient(to right,#f2cc94,#2d150f);*/
+	background:linear-gradient(to right,#261e28,#371916);
 	height: 119em;
 	
 }
@@ -52,10 +53,10 @@ nav{
 	width: 23%;
 	margin:0% 1%;
 	padding:2% 1%;
-	background-color:#f2cc94;
+	background-color:#9a4500;
 	float:left;
 	border-width: 0px;
-	background:linear-gradient(to right,#f2cc94,#2d150f);}
+	background:linear-gradient(to right,#261e28,#371916);}
 .right {
 	display: inline-block;
 	clear:both;
@@ -77,32 +78,31 @@ border-radius: 20px 0px 0px 20px;
 nav a:last-child {
 border-radius: 0px 20px 20px 0px;	
 padding: 1% 4%;
+margin-right: 10%;
 }
 body {
-	background-color:#2d150f ;text-shadow: 4px 4px 6px black, 0 0 1em black;
+	background-color:#371916/*#521808*//*#3c240d*//*#2d150f*/ ;text-shadow: 4px 4px 6px black, 0 0 1em black;
 	/*#7d5132*/	/*#FFE4E1*//*#c9a165*/
 }
 h2{
-	color: white;
+	color:#c8968f/*white*/;
 	text-align: center;
 	font-size: 200%;
-	text-shadow: 4px 4px 6px black, 0 0 1em black;
+	text-shadow: 1px 1px 3px #433e1b, 0 0 1em #433e1b;
 }
 p,ul{
-	color:#f2cc94;
+	color: #f8ebd3/*#f2cc94*/;
 	font-size: 160%;
 	text-shadow: 2px 2px 5px black, 0 0 1em black;
 }
+
 .left ul {
-	color: #2d150f;
+	color: #c8968f;
 }
 .active{
 	background-color: #FFFFFF;
 }
-footer img{
-	width:40px;
-	height: 40px;
-}
+
 .novos{
 	margin: 10px 10%;
 }
@@ -121,11 +121,13 @@ p img {
 }
 footer img{
 	display: inline-block;
-	margin-left: 8%;
+	margin-left: 1%;
+	float:left;
+	width:20px;
+	height: 20px;
 }
 footer p {
-	color: black;
-	text-align: center;
+	color:white;
 	text-shadow: 1px 1px 3px grey, 0 0 1em grey;
 }
 h3{
@@ -142,10 +144,11 @@ h4 {
 
 }
 .news:hover {
-	background-color: #56291e;
+	background-color: #261e28;
+	opacity: 0.8;
 }
 .nazad {
-	color: #f2cc96 ;
+	color: #ffdbaf ;
 	float:right;
 }
 .nom {
@@ -163,11 +166,9 @@ table {
  background-color: #56291e
 }
 footer {
-	background: #666666 url(../image/hkor.jpg) no-repeat;
+	background: #666666 url(../image/glavn.jpg) no-repeat;
 	padding-top: 5%;
 	background-size: 100%;
-	margin-left: 14px;
-	text-align: center;
 
 }
 .galer {
@@ -345,7 +346,7 @@ label, a{ /*при наведении на стрелки или переклю�
 	background-color:#f2cc94;
 	position: absolute; right:0px
 	border-width: 0px;
-	background:linear-gradient(to left,#f2cc94,#2d150f);
+	background:linear-gradient(to left,#261e28,#371916);;
 
 }
 form label {
@@ -356,7 +357,7 @@ form label {
 form table {
 	text-align: center;
 	margin-left: 30px;
-	background-color:#2d150f
+	background-color:#371916
 }
 form td{
 	padding: 0px 50px
@@ -388,4 +389,7 @@ h2 img{
 }
 #nagr:hover {
 background-color: #56291e;	
+}
+.left a{
+	color: #c8968f;
 }
